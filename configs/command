@@ -1,0 +1,35 @@
+ENVIRONMENT
+conda activate adv_seg
+
+Train:
+python scripts\train_unet.py --config configs/config_isic.json
+
+Train_rubost:
+python scripts\aug_train.py --config configs/config_isic.json
+
+
+EDV:
+python scripts\eval_adv.py --config configs/config_isic.json --ckpt outputs/unet_best.pth --attack fgsm --eps 0.0157 --attack_iters 10 --val_start_name ISIC_0010844.jpg --val_count 100 --defense tta --defense_bits 6 --tta_transforms 3
+python scripts\eval_adv.py --config configs/config_isic.json --ckpt outputs_advtrain/unet_adv_trained.pth --attack fgsm --eps 0.0157 --attack_iters 10 --val_start_name ISIC_0000091.jpg --val_count 20
+python scripts\eval_adv.py --config configs/config_isic.json --ckpt outputs/unet_best.pth --attack fgsm --eps 0.0157 --attack_iters 10 --val_start_name ISIC_0000091.jpg --val_count 20
+python scripts\eval_adv.py --config configs/config_isic.json --ckpt outputs/unet_best.pth --attack fgsm --eps 0.0157 --attack_iters 10 --val_start_name ISIC_0010844.jpg --val_count 100 --defense tta --defense_bits 6 --tta_transforms 3
+python scripts\eval_adv.py --config configs/config_isic.json --ckpt outputs/1000-fgsm/denoise/unet_best_denoise.pth --attack fgsm --eps 0.0157 --attack_iters 10 --val_start_name ISIC_0010844.jpg --val_count 100
+
+eval_denoise:
+python scripts\eval_denoise.py --config configs/config_isic.json --ckpt outputs/1000-fgsm/denoise/unet_best_denoise.pth --attack fgsm --eps 0.0157 --attack_iters 10 --val_start_name ISIC_0010844.jpg --val_count 100
+python scripts\eval_denoise.py --config configs/config_isic.json --ckpt outputs/1000-fgsm/aug/unet_best_denoise.pth --attack fgsm --eps 0.0157 --attack_iters 10 --val_start_name ISIC_0010844.jpg --val_count 100
+
+
+Resize:
+python scripts\resize_first_n.py --images_dir dataset/ISIC2018_Task1-2_Training_Input --masks_dir dataset/ISIC2018_Task1_Training_GroundTruth --out_images dataset/resized_100/images --out_masks dataset/resized_100/masks --n 1300 --width 512 --height 384
+
+
+ADV_TRAINED:
+python scripts\adversarial_training.py --config configs/config_isic.json --out outputs
+
+# 5) 聚合并画图（在 project root）
+python tools/aggregate_eval_results.py
+
+# 6) 定性对比示例（单图）
+python scripts/attack_single_image.py --config configs/config_isic.json --ckpt outputs/unet_best.pth --image dataset/ISIC2018_Task1-2_Test_Input/ISIC_0012303.jpg --attack fgsm --eps 0.0157
+python scripts/attack_single_image.py --config configs/config_isic.json --ckpt outputs/unet_adv_trained.pth --image dataset/resized_100/images/ISIC_0012303.jpg --attack fgsm --eps 0.0157

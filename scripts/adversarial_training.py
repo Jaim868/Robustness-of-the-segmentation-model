@@ -15,6 +15,8 @@ from models.unet import UNet
 from utils.dataset import ISICDataset
 from scripts.attacks.pgd_seg import pgd_attack_on_segmentation
 
+
+
 def train_adv(cfg_path, out_dir=None):
     with open(cfg_path) as f:
         cfg = json.load(f)
