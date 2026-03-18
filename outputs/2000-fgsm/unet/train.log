@@ -1,0 +1,48 @@
+2026-01-15 15:19:36,775 - INFO - Starting training, output directory: ./outputs/2000-fgsm/unet
+2026-01-15 15:19:36,776 - INFO - Saved config snapshot to ./outputs/2000-fgsm/unet\config_used.json
+2026-01-15 15:19:36,869 - INFO - Training samples: 2200; Validation samples: 394
+2026-01-15 15:19:36,871 - INFO - First 5 train samples: ['ISIC_0000000.jpg', 'ISIC_0000001.jpg', 'ISIC_0000003.jpg', 'ISIC_0000004.jpg', 'ISIC_0000006.jpg']
+2026-01-15 15:19:36,871 - INFO - Feature Denoising Module is DISABLED.
+2026-01-15 15:19:40,054 - INFO - Epoch 1/20
+2026-01-15 15:21:43,750 - INFO - Epoch 1: train_loss=0.724213, val_dice=0.666235 ¡À 0.278383
+2026-01-15 15:21:43,817 - INFO - Saved new best model to ./outputs/2000-fgsm/unet\unet_best_denoise.pth (val_dice=0.666235)
+2026-01-15 15:21:43,817 - INFO - Epoch 2/20
+2026-01-15 15:22:51,785 - INFO - Epoch 2: train_loss=0.489061, val_dice=0.722569 ¡À 0.261068
+2026-01-15 15:22:51,806 - INFO - Saved new best model to ./outputs/2000-fgsm/unet\unet_best_denoise.pth (val_dice=0.722569)
+2026-01-15 15:22:51,807 - INFO - Epoch 3/20
+2026-01-15 15:23:57,830 - INFO - Epoch 3: train_loss=0.433057, val_dice=0.693263 ¡À 0.261393
+2026-01-15 15:23:57,832 - INFO - Epoch 4/20
+2026-01-15 15:24:53,793 - INFO - Epoch 4: train_loss=0.411328, val_dice=0.668625 ¡À 0.285776
+2026-01-15 15:24:53,794 - INFO - Epoch 5/20
+2026-01-15 15:25:53,938 - INFO - Epoch 5: train_loss=0.396521, val_dice=0.605268 ¡À 0.287742
+2026-01-15 15:25:53,939 - INFO - Epoch 6/20
+2026-01-15 15:27:01,893 - INFO - Epoch 6: train_loss=0.380742, val_dice=0.621598 ¡À 0.297541
+2026-01-15 15:27:01,894 - INFO - Epoch 7/20
+2026-01-15 15:28:09,214 - INFO - Epoch 7: train_loss=0.364952, val_dice=0.663165 ¡À 0.286659
+2026-01-15 15:28:09,215 - INFO - Epoch 8/20
+2026-01-15 15:29:15,394 - INFO - Epoch 8: train_loss=0.358105, val_dice=0.668836 ¡À 0.273248
+2026-01-15 15:29:15,397 - INFO - Epoch 9/20
+2026-01-15 15:30:21,281 - INFO - Epoch 9: train_loss=0.346811, val_dice=0.693400 ¡À 0.280012
+2026-01-15 15:30:21,282 - INFO - Epoch 10/20
+2026-01-15 15:31:26,966 - INFO - Epoch 10: train_loss=0.338085, val_dice=0.662868 ¡À 0.283275
+2026-01-15 15:31:26,968 - INFO - Epoch 11/20
+2026-01-15 15:32:34,142 - INFO - Epoch 11: train_loss=0.339681, val_dice=0.568185 ¡À 0.301560
+2026-01-15 15:32:34,143 - INFO - Epoch 12/20
+2026-01-15 15:33:40,666 - INFO - Epoch 12: train_loss=0.327331, val_dice=0.644321 ¡À 0.289339
+2026-01-15 15:33:40,667 - INFO - Epoch 13/20
+2026-01-15 15:34:49,256 - INFO - Epoch 13: train_loss=0.323153, val_dice=0.592104 ¡À 0.298699
+2026-01-15 15:34:49,257 - INFO - Epoch 14/20
+2026-01-15 15:35:57,707 - INFO - Epoch 14: train_loss=0.315903, val_dice=0.577109 ¡À 0.309517
+2026-01-15 15:35:57,708 - INFO - Epoch 15/20
+2026-01-15 15:37:06,021 - INFO - Epoch 15: train_loss=0.312443, val_dice=0.531197 ¡À 0.309982
+2026-01-15 15:37:06,023 - INFO - Epoch 16/20
+2026-01-15 15:38:07,108 - INFO - Epoch 16: train_loss=0.305418, val_dice=0.611943 ¡À 0.291280
+2026-01-15 15:38:07,108 - INFO - Epoch 17/20
+2026-01-15 15:39:09,069 - INFO - Epoch 17: train_loss=0.304100, val_dice=0.646697 ¡À 0.283456
+2026-01-15 15:39:09,071 - INFO - Epoch 18/20
+2026-01-15 15:40:14,463 - INFO - Epoch 18: train_loss=0.298442, val_dice=0.590885 ¡À 0.282728
+2026-01-15 15:40:14,463 - INFO - Epoch 19/20
+2026-01-15 15:41:23,275 - INFO - Epoch 19: train_loss=0.293505, val_dice=0.651570 ¡À 0.285489
+2026-01-15 15:41:23,277 - INFO - Epoch 20/20
+2026-01-15 15:42:31,965 - INFO - Epoch 20: train_loss=0.293945, val_dice=0.624750 ¡À 0.290240
+2026-01-15 15:42:31,965 - INFO - Training finished. Best val dice: 0.722569

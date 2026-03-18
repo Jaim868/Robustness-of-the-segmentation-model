@@ -1,0 +1,169 @@
+2025-10-21 14:33:38,379 - INFO - Starting training, output directory: ./outputs
+2025-10-21 14:33:38,379 - INFO - Saved config snapshot to ./outputs\config_used.json
+2025-10-21 14:33:38,401 - INFO - Training samples: 100; Validation samples: 20
+2025-10-21 14:33:38,401 - INFO - First 5 train samples: ['ISIC_0000000.jpg', 'ISIC_0000001.jpg', 'ISIC_0000003.jpg', 'ISIC_0000004.jpg', 'ISIC_0000006.jpg']
+2025-10-21 14:33:40,321 - INFO - Epoch 1/30
+2025-10-21 14:40:00,056 - INFO - Epoch 1: train_loss=0.749835, val_dice=0.713417 ¡À 0.267185
+2025-10-21 14:40:00,153 - INFO - Saved new best model to ./outputs\unet_best.pth (val_dice=0.713417)
+2025-10-21 14:40:00,153 - INFO - Epoch 2/30
+2025-10-21 14:46:42,759 - INFO - Epoch 2: train_loss=0.582654, val_dice=0.478779 ¡À 0.253162
+2025-10-21 14:46:42,765 - INFO - Epoch 3/30
+2025-10-21 14:53:29,132 - INFO - Epoch 3: train_loss=0.522519, val_dice=0.506401 ¡À 0.262403
+2025-10-21 14:53:29,133 - INFO - Epoch 4/30
+2025-10-21 15:00:34,912 - INFO - Epoch 4: train_loss=0.498518, val_dice=0.475985 ¡À 0.260565
+2025-10-21 15:00:34,913 - INFO - Epoch 5/30
+2025-10-22 15:42:41,113 - INFO - Starting training, output directory: ./outputs
+2025-10-22 15:42:41,115 - INFO - Saved config snapshot to ./outputs\config_used.json
+2025-10-22 15:42:41,168 - INFO - Training samples: 100; Validation samples: 20
+2025-10-22 15:42:41,169 - INFO - First 5 train samples: ['ISIC_0000000.jpg', 'ISIC_0000001.jpg', 'ISIC_0000003.jpg', 'ISIC_0000004.jpg', 'ISIC_0000006.jpg']
+2025-10-22 15:42:43,746 - INFO - Epoch 1/30
+2025-10-22 15:45:04,096 - INFO - Starting training, output directory: ./outputs
+2025-10-22 15:45:04,106 - INFO - Saved config snapshot to ./outputs\config_used.json
+2025-10-22 15:45:04,180 - INFO - Training samples: 50; Validation samples: 20
+2025-10-22 15:45:04,180 - INFO - First 5 train samples: ['ISIC_0000000.jpg', 'ISIC_0000001.jpg', 'ISIC_0000003.jpg', 'ISIC_0000004.jpg', 'ISIC_0000006.jpg']
+2025-10-22 15:45:06,211 - INFO - Epoch 1/15
+2025-10-22 15:48:37,762 - INFO - Epoch 1: train_loss=0.801090, val_dice=0.752930 ¡À 0.230842
+2025-10-22 15:48:37,783 - INFO - Saved new best model to ./outputs\unet_best.pth (val_dice=0.752930)
+2025-10-22 15:48:37,784 - INFO - Epoch 2/15
+2025-10-22 15:52:00,125 - INFO - Epoch 2: train_loss=0.587431, val_dice=0.477407 ¡À 0.163815
+2025-10-22 15:52:00,126 - INFO - Epoch 3/15
+2025-10-22 15:55:24,707 - INFO - Epoch 3: train_loss=0.539255, val_dice=0.786243 ¡À 0.245209
+2025-10-22 15:55:24,790 - INFO - Saved new best model to ./outputs\unet_best.pth (val_dice=0.786243)
+2025-10-22 15:55:24,790 - INFO - Epoch 4/15
+2025-10-22 15:58:43,320 - INFO - Epoch 4: train_loss=0.476056, val_dice=0.803765 ¡À 0.226087
+2025-10-22 15:58:43,337 - INFO - Saved new best model to ./outputs\unet_best.pth (val_dice=0.803765)
+2025-10-22 15:58:43,338 - INFO - Epoch 5/15
+2025-10-22 16:01:50,947 - INFO - Epoch 5: train_loss=0.469040, val_dice=0.623160 ¡À 0.252805
+2025-10-22 16:01:50,949 - INFO - Epoch 6/15
+2025-10-22 16:04:53,657 - INFO - Epoch 6: train_loss=0.452443, val_dice=0.787427 ¡À 0.249974
+2025-10-22 16:04:53,658 - INFO - Epoch 7/15
+2025-10-22 16:08:08,923 - INFO - Epoch 7: train_loss=0.437116, val_dice=0.824906 ¡À 0.224985
+2025-10-22 16:08:08,933 - INFO - Saved new best model to ./outputs\unet_best.pth (val_dice=0.824906)
+2025-10-22 16:08:08,933 - INFO - Epoch 8/15
+2025-10-22 16:11:16,545 - INFO - Epoch 8: train_loss=0.472661, val_dice=0.467877 ¡À 0.159133
+2025-10-22 16:11:16,547 - INFO - Epoch 9/15
+2025-10-22 16:14:30,721 - INFO - Epoch 9: train_loss=0.434129, val_dice=0.776629 ¡À 0.265314
+2025-10-22 16:14:30,722 - INFO - Epoch 10/15
+2025-10-22 16:17:52,816 - INFO - Epoch 10: train_loss=0.408398, val_dice=0.787628 ¡À 0.247182
+2025-10-22 16:17:52,817 - INFO - Epoch 11/15
+2025-10-22 16:21:40,802 - INFO - Epoch 11: train_loss=0.405754, val_dice=0.833920 ¡À 0.209132
+2025-10-22 16:21:40,809 - INFO - Saved new best model to ./outputs\unet_best.pth (val_dice=0.833920)
+2025-10-22 16:21:40,811 - INFO - Epoch 12/15
+2025-10-22 16:24:58,836 - INFO - Epoch 12: train_loss=0.394339, val_dice=0.792012 ¡À 0.248506
+2025-10-22 16:24:58,908 - INFO - Epoch 13/15
+2025-10-22 16:28:15,387 - INFO - Epoch 13: train_loss=0.392641, val_dice=0.814863 ¡À 0.225013
+2025-10-22 16:28:15,388 - INFO - Epoch 14/15
+2025-10-22 16:31:32,619 - INFO - Epoch 14: train_loss=0.384061, val_dice=0.793412 ¡À 0.260054
+2025-10-22 16:31:32,621 - INFO - Epoch 15/15
+2025-10-22 16:34:51,087 - INFO - Epoch 15: train_loss=0.398327, val_dice=0.812475 ¡À 0.241081
+2025-10-22 16:34:51,089 - INFO - Training finished. Best val dice: 0.833920
+2025-11-05 21:58:48,752 - INFO - Starting training, output directory: ./outputs
+2025-11-05 21:58:48,754 - INFO - Saved config snapshot to ./outputs\config_used.json
+2025-11-05 21:58:48,811 - INFO - Training samples: 100; Validation samples: 20
+2025-11-05 21:58:48,811 - INFO - First 5 train samples: ['ISIC_0000000.jpg', 'ISIC_0000001.jpg', 'ISIC_0000003.jpg', 'ISIC_0000004.jpg', 'ISIC_0000006.jpg']
+2025-11-05 21:58:51,102 - INFO - Epoch 1/15
+2025-11-05 22:02:01,414 - INFO - Starting training, output directory: ./outputs
+2025-11-05 22:02:01,415 - INFO - Saved config snapshot to ./outputs\config_used.json
+2025-11-05 22:02:01,437 - INFO - Training samples: 100; Validation samples: 20
+2025-11-05 22:02:01,437 - INFO - First 5 train samples: ['ISIC_0000000.jpg', 'ISIC_0000001.jpg', 'ISIC_0000003.jpg', 'ISIC_0000004.jpg', 'ISIC_0000006.jpg']
+2025-11-05 22:02:03,398 - INFO - Epoch 1/15
+2025-11-05 22:13:03,790 - INFO - Starting training, output directory: ./outputs
+2025-11-05 22:13:03,791 - INFO - Saved config snapshot to ./outputs\config_used.json
+2025-11-05 22:13:03,814 - INFO - Training samples: 100; Validation samples: 20
+2025-11-05 22:13:03,814 - INFO - First 5 train samples: ['ISIC_0000000.jpg', 'ISIC_0000001.jpg', 'ISIC_0000003.jpg', 'ISIC_0000004.jpg', 'ISIC_0000006.jpg']
+2025-11-05 22:13:05,923 - INFO - Epoch 1/15
+2025-11-05 23:53:07,860 - INFO - Starting training, output directory: ./outputs
+2025-11-05 23:53:07,865 - INFO - Saved config snapshot to ./outputs\config_used.json
+2025-11-05 23:53:07,887 - INFO - Training samples: 100; Validation samples: 20
+2025-11-05 23:53:07,887 - INFO - First 5 train samples: ['ISIC_0000000.jpg', 'ISIC_0000001.jpg', 'ISIC_0000003.jpg', 'ISIC_0000004.jpg', 'ISIC_0000006.jpg']
+2025-11-05 23:53:09,779 - INFO - Epoch 1/15
+2025-11-05 23:57:18,719 - INFO - Starting training, output directory: ./outputs
+2025-11-05 23:57:18,721 - INFO - Saved config snapshot to ./outputs\config_used.json
+2025-11-05 23:57:18,744 - INFO - Training samples: 100; Validation samples: 20
+2025-11-05 23:57:18,744 - INFO - First 5 train samples: ['ISIC_0000000.jpg', 'ISIC_0000001.jpg', 'ISIC_0000003.jpg', 'ISIC_0000004.jpg', 'ISIC_0000006.jpg']
+2025-11-05 23:57:20,564 - INFO - Epoch 1/15
+2025-11-05 23:58:44,283 - INFO - Starting training, output directory: ./outputs
+2025-11-05 23:58:44,284 - INFO - Saved config snapshot to ./outputs\config_used.json
+2025-11-05 23:58:44,327 - INFO - Training samples: 100; Validation samples: 20
+2025-11-05 23:58:44,328 - INFO - First 5 train samples: ['ISIC_0000000.jpg', 'ISIC_0000001.jpg', 'ISIC_0000003.jpg', 'ISIC_0000004.jpg', 'ISIC_0000006.jpg']
+2025-11-05 23:58:46,202 - INFO - Epoch 1/15
+2025-11-06 00:04:00,541 - INFO - Starting training, output directory: ./outputs
+2025-11-06 00:04:00,541 - INFO - Saved config snapshot to ./outputs\config_used.json
+2025-11-06 00:04:00,618 - INFO - Training samples: 100; Validation samples: 20
+2025-11-06 00:04:00,618 - INFO - First 5 train samples: ['ISIC_0000000.jpg', 'ISIC_0000001.jpg', 'ISIC_0000003.jpg', 'ISIC_0000004.jpg', 'ISIC_0000006.jpg']
+2025-11-06 00:04:03,126 - INFO - Epoch 1/15
+2025-11-06 00:04:27,229 - INFO - Epoch 1: train_loss=1.019941, val_dice=0.370354 ¡À 0.175204
+2025-11-06 00:04:27,264 - INFO - Saved new best model to ./outputs\unet_best.pth (val_dice=0.370354)
+2025-11-06 00:04:27,265 - INFO - Epoch 2/15
+2025-11-06 00:04:48,237 - INFO - Epoch 2: train_loss=0.794658, val_dice=0.487410 ¡À 0.250298
+2025-11-06 00:04:48,255 - INFO - Saved new best model to ./outputs\unet_best.pth (val_dice=0.487410)
+2025-11-06 00:04:48,256 - INFO - Epoch 3/15
+2025-11-06 00:05:08,693 - INFO - Epoch 3: train_loss=0.661021, val_dice=0.437183 ¡À 0.245449
+2025-11-06 00:05:08,694 - INFO - Epoch 4/15
+2025-11-06 00:05:29,679 - INFO - Epoch 4: train_loss=0.590041, val_dice=0.431582 ¡À 0.248657
+2025-11-06 00:05:29,680 - INFO - Epoch 5/15
+2025-11-06 00:05:50,579 - INFO - Epoch 5: train_loss=0.540630, val_dice=0.701221 ¡À 0.273304
+2025-11-06 00:05:50,599 - INFO - Saved new best model to ./outputs\unet_best.pth (val_dice=0.701221)
+2025-11-06 00:05:50,599 - INFO - Epoch 6/15
+2025-11-06 00:06:11,913 - INFO - Epoch 6: train_loss=0.543350, val_dice=0.499520 ¡À 0.257868
+2025-11-06 00:06:11,914 - INFO - Epoch 7/15
+2025-11-06 00:06:33,393 - INFO - Epoch 7: train_loss=0.498692, val_dice=0.575153 ¡À 0.258636
+2025-11-06 00:06:33,395 - INFO - Epoch 8/15
+2025-11-06 00:06:54,787 - INFO - Epoch 8: train_loss=0.471982, val_dice=0.513596 ¡À 0.253810
+2025-11-06 00:06:54,788 - INFO - Epoch 9/15
+2025-11-06 00:07:16,209 - INFO - Epoch 9: train_loss=0.471916, val_dice=0.634334 ¡À 0.260951
+2025-11-06 00:07:16,210 - INFO - Epoch 10/15
+2025-11-06 00:07:37,558 - INFO - Epoch 10: train_loss=0.465352, val_dice=0.646663 ¡À 0.256713
+2025-11-06 00:07:37,559 - INFO - Epoch 11/15
+2025-11-06 00:07:59,015 - INFO - Epoch 11: train_loss=0.476202, val_dice=0.730904 ¡À 0.260992
+2025-11-06 00:07:59,035 - INFO - Saved new best model to ./outputs\unet_best.pth (val_dice=0.730904)
+2025-11-06 00:07:59,035 - INFO - Epoch 12/15
+2025-11-06 00:08:21,161 - INFO - Epoch 12: train_loss=0.432841, val_dice=0.586038 ¡À 0.257026
+2025-11-06 00:08:21,162 - INFO - Epoch 13/15
+2025-11-06 00:08:42,487 - INFO - Epoch 13: train_loss=0.391674, val_dice=0.540978 ¡À 0.258289
+2025-11-06 00:08:42,488 - INFO - Epoch 14/15
+2025-11-06 00:09:02,883 - INFO - Epoch 14: train_loss=0.406996, val_dice=0.694786 ¡À 0.269881
+2025-11-06 00:09:02,883 - INFO - Epoch 15/15
+2025-11-06 00:09:23,185 - INFO - Epoch 15: train_loss=0.398415, val_dice=0.470666 ¡À 0.255075
+2025-11-06 00:09:23,186 - INFO - Training finished. Best val dice: 0.730904
+2025-11-19 22:04:05,800 - INFO - Starting training, output directory: ./outputs
+2025-11-19 22:04:05,803 - INFO - Saved config snapshot to ./outputs\config_used.json
+2025-11-19 22:04:05,866 - INFO - Training samples: 900; Validation samples: 20
+2025-11-19 22:04:05,868 - INFO - First 5 train samples: ['ISIC_0000000.jpg', 'ISIC_0000001.jpg', 'ISIC_0000003.jpg', 'ISIC_0000004.jpg', 'ISIC_0000006.jpg']
+2025-11-19 22:04:09,485 - INFO - Epoch 1/15
+2025-11-19 22:05:32,697 - INFO - Starting training, output directory: ./outputs
+2025-11-19 22:05:32,698 - INFO - Saved config snapshot to ./outputs\config_used.json
+2025-11-19 22:05:32,720 - INFO - Training samples: 900; Validation samples: 20
+2025-11-19 22:05:32,720 - INFO - First 5 train samples: ['ISIC_0000000.jpg', 'ISIC_0000001.jpg', 'ISIC_0000003.jpg', 'ISIC_0000004.jpg', 'ISIC_0000006.jpg']
+2025-11-19 22:05:35,018 - INFO - Epoch 1/15
+2025-11-19 22:06:24,779 - INFO - Epoch 1: train_loss=0.789433, val_dice=0.686445 ¡À 0.287617
+2025-11-19 22:06:24,831 - INFO - Saved new best model to ./outputs\unet_best.pth (val_dice=0.686445)
+2025-11-19 22:06:24,831 - INFO - Epoch 2/15
+2025-11-19 22:06:41,917 - INFO - Epoch 2: train_loss=0.553846, val_dice=0.628975 ¡À 0.284687
+2025-11-19 22:06:41,919 - INFO - Epoch 3/15
+2025-11-19 22:06:57,730 - INFO - Epoch 3: train_loss=0.468067, val_dice=0.608682 ¡À 0.272050
+2025-11-19 22:06:57,732 - INFO - Epoch 4/15
+2025-11-19 22:07:13,428 - INFO - Epoch 4: train_loss=0.439775, val_dice=0.473406 ¡À 0.372524
+2025-11-19 22:07:13,429 - INFO - Epoch 5/15
+2025-11-19 22:07:29,107 - INFO - Epoch 5: train_loss=0.409305, val_dice=0.347814 ¡À 0.363155
+2025-11-19 22:07:29,108 - INFO - Epoch 6/15
+2025-11-19 22:07:44,939 - INFO - Epoch 6: train_loss=0.389778, val_dice=0.527382 ¡À 0.360750
+2025-11-19 22:07:44,940 - INFO - Epoch 7/15
+2025-11-19 22:08:06,201 - INFO - Epoch 7: train_loss=0.373836, val_dice=0.502142 ¡À 0.350639
+2025-11-19 22:08:06,202 - INFO - Epoch 8/15
+2025-11-19 22:08:31,091 - INFO - Epoch 8: train_loss=0.360161, val_dice=0.642317 ¡À 0.314995
+2025-11-19 22:08:31,093 - INFO - Epoch 9/15
+2025-11-19 22:08:56,215 - INFO - Epoch 9: train_loss=0.351052, val_dice=0.558082 ¡À 0.368474
+2025-11-19 22:08:56,216 - INFO - Epoch 10/15
+2025-11-19 22:09:21,687 - INFO - Epoch 10: train_loss=0.333134, val_dice=0.095303 ¡À 0.144313
+2025-11-19 22:09:21,689 - INFO - Epoch 11/15
+2025-11-19 22:09:46,947 - INFO - Epoch 11: train_loss=0.331270, val_dice=0.459613 ¡À 0.350966
+2025-11-19 22:09:46,948 - INFO - Epoch 12/15
+2025-11-19 22:10:11,896 - INFO - Epoch 12: train_loss=0.314432, val_dice=0.648133 ¡À 0.308460
+2025-11-19 22:10:11,900 - INFO - Epoch 13/15
+2025-11-19 22:10:28,216 - INFO - Epoch 13: train_loss=0.313271, val_dice=0.556724 ¡À 0.362167
+2025-11-19 22:10:28,216 - INFO - Epoch 14/15
+2025-11-19 22:10:44,403 - INFO - Epoch 14: train_loss=0.296070, val_dice=0.176739 ¡À 0.287788
+2025-11-19 22:10:44,404 - INFO - Epoch 15/15
+2025-11-19 22:11:09,329 - INFO - Epoch 15: train_loss=0.288337, val_dice=0.661466 ¡À 0.267634
+2025-11-19 22:11:09,330 - INFO - Training finished. Best val dice: 0.686445

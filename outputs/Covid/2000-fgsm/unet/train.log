@@ -1,0 +1,51 @@
+2026-01-22 22:48:21,409 - INFO - Starting training, output directory: ./outputs/Covid/2000-fgsm/unet
+2026-01-22 22:48:21,411 - INFO - Saved config snapshot to ./outputs/Covid/2000-fgsm/unet\config_used.json
+2026-01-22 22:48:21,412 - INFO - Training samples: 0; Validation samples: 0
+2026-01-22 22:48:21,412 - INFO - First 5 train samples: []
+2026-01-22 22:51:39,694 - INFO - Starting training, output directory: ./outputs/Covid/2000-fgsm/unet
+2026-01-22 22:51:39,695 - INFO - Saved config snapshot to ./outputs/Covid/2000-fgsm/unet\config_used.json
+2026-01-22 22:51:39,696 - INFO - Training samples: 0; Validation samples: 0
+2026-01-22 22:51:39,697 - INFO - First 5 train samples: []
+2026-01-22 22:53:01,223 - INFO - Starting training, output directory: ./outputs/Covid/2000-fgsm/unet
+2026-01-22 22:53:01,227 - INFO - Saved config snapshot to ./outputs/Covid/2000-fgsm/unet\config_used.json
+2026-01-22 22:53:01,390 - INFO - Training samples: 2200; Validation samples: 394
+2026-01-22 22:53:01,390 - INFO - First 5 train samples: ['COVID-1.png', 'COVID-10.png', 'COVID-100.png', 'COVID-1000.png', 'COVID-1001.png']
+2026-01-22 22:53:01,392 - INFO - Feature Denoising Module is DISABLED.
+2026-01-22 22:53:01,406 - INFO - Epoch 1/15
+2026-01-22 23:00:44,409 - INFO - Epoch 1: train_loss=0.398992, val_dice=0.881565 ¡À 0.137782
+2026-01-22 23:00:44,416 - INFO - Saved new best model to ./outputs/Covid/2000-fgsm/unet\unet_best_denoise.pth (val_dice=0.881565)
+2026-01-22 23:00:44,418 - INFO - Epoch 2/15
+2026-01-22 23:09:00,232 - INFO - Epoch 2: train_loss=0.171779, val_dice=0.936907 ¡À 0.052440
+2026-01-22 23:09:00,245 - INFO - Saved new best model to ./outputs/Covid/2000-fgsm/unet\unet_best_denoise.pth (val_dice=0.936907)
+2026-01-22 23:09:00,245 - INFO - Epoch 3/15
+2026-01-22 23:21:05,559 - INFO - Epoch 3: train_loss=0.136692, val_dice=0.917768 ¡À 0.105614
+2026-01-22 23:21:05,560 - INFO - Epoch 4/15
+2026-01-22 23:30:13,006 - INFO - Epoch 4: train_loss=0.118932, val_dice=0.953599 ¡À 0.046727
+2026-01-22 23:30:13,018 - INFO - Saved new best model to ./outputs/Covid/2000-fgsm/unet\unet_best_denoise.pth (val_dice=0.953599)
+2026-01-22 23:30:13,018 - INFO - Epoch 5/15
+2026-01-22 23:37:56,957 - INFO - Epoch 5: train_loss=0.108889, val_dice=0.940133 ¡À 0.066846
+2026-01-22 23:37:56,959 - INFO - Epoch 6/15
+2026-01-22 23:45:36,501 - INFO - Epoch 6: train_loss=0.102048, val_dice=0.943027 ¡À 0.075950
+2026-01-22 23:45:36,502 - INFO - Epoch 7/15
+2026-01-22 23:53:29,877 - INFO - Epoch 7: train_loss=0.094414, val_dice=0.948378 ¡À 0.054853
+2026-01-22 23:53:29,878 - INFO - Epoch 8/15
+2026-01-23 00:01:14,042 - INFO - Epoch 8: train_loss=0.089417, val_dice=0.945823 ¡À 0.061855
+2026-01-23 00:01:14,046 - INFO - Epoch 9/15
+2026-01-23 00:09:02,012 - INFO - Epoch 9: train_loss=0.085837, val_dice=0.955283 ¡À 0.056330
+2026-01-23 00:09:02,019 - INFO - Saved new best model to ./outputs/Covid/2000-fgsm/unet\unet_best_denoise.pth (val_dice=0.955283)
+2026-01-23 00:09:02,020 - INFO - Epoch 10/15
+2026-01-23 00:16:50,399 - INFO - Epoch 10: train_loss=0.080516, val_dice=0.936558 ¡À 0.085023
+2026-01-23 00:16:50,399 - INFO - Epoch 11/15
+2026-01-23 00:25:14,066 - INFO - Epoch 11: train_loss=0.078483, val_dice=0.958777 ¡À 0.060785
+2026-01-23 00:25:14,070 - INFO - Saved new best model to ./outputs/Covid/2000-fgsm/unet\unet_best_denoise.pth (val_dice=0.958777)
+2026-01-23 00:25:14,071 - INFO - Epoch 12/15
+2026-01-23 00:31:41,155 - INFO - Epoch 12: train_loss=0.076265, val_dice=0.960563 ¡À 0.045458
+2026-01-23 00:31:41,160 - INFO - Saved new best model to ./outputs/Covid/2000-fgsm/unet\unet_best_denoise.pth (val_dice=0.960563)
+2026-01-23 00:31:41,160 - INFO - Epoch 13/15
+2026-01-23 00:38:09,082 - INFO - Epoch 13: train_loss=0.071889, val_dice=0.906792 ¡À 0.126392
+2026-01-23 00:38:09,083 - INFO - Epoch 14/15
+2026-01-23 00:44:37,681 - INFO - Epoch 14: train_loss=0.071294, val_dice=0.959900 ¡À 0.054272
+2026-01-23 00:44:37,681 - INFO - Epoch 15/15
+2026-01-23 00:51:04,876 - INFO - Epoch 15: train_loss=0.068891, val_dice=0.961088 ¡À 0.061434
+2026-01-23 00:51:04,882 - INFO - Saved new best model to ./outputs/Covid/2000-fgsm/unet\unet_best_denoise.pth (val_dice=0.961088)
+2026-01-23 00:51:04,882 - INFO - Training finished. Best val dice: 0.961088

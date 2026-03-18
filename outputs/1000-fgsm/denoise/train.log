@@ -1,0 +1,53 @@
+2025-12-03 19:31:26,827 - INFO - Starting training, output directory: ./outputs/1000-fgsm/denoise
+2025-12-03 19:31:26,828 - INFO - Saved config snapshot to ./outputs/1000-fgsm/denoise\config_used.json
+2025-12-03 19:31:26,852 - INFO - Training samples: 900; Validation samples: 100
+2025-12-03 19:31:26,854 - INFO - First 5 train samples: ['ISIC_0000000.jpg', 'ISIC_0000001.jpg', 'ISIC_0000003.jpg', 'ISIC_0000004.jpg', 'ISIC_0000006.jpg']
+2025-12-03 19:31:26,854 - INFO - Feature Denoising Module (Non-Local Blocks) is ENABLED.
+2025-12-03 19:31:29,298 - INFO - Epoch 1/15
+2025-12-03 19:34:34,718 - INFO - Starting training, output directory: ./outputs/1000-fgsm/denoise
+2025-12-03 19:34:34,721 - INFO - Saved config snapshot to ./outputs/1000-fgsm/denoise\config_used.json
+2025-12-03 19:34:34,759 - INFO - Training samples: 900; Validation samples: 100
+2025-12-03 19:34:34,759 - INFO - First 5 train samples: ['ISIC_0000000.jpg', 'ISIC_0000001.jpg', 'ISIC_0000003.jpg', 'ISIC_0000004.jpg', 'ISIC_0000006.jpg']
+2025-12-03 19:34:34,761 - INFO - Feature Denoising Module (Non-Local Blocks) is ENABLED.
+2025-12-03 19:34:36,479 - INFO - Epoch 1/15
+2025-12-03 19:35:30,450 - INFO - Starting training, output directory: ./outputs/1000-fgsm/denoise
+2025-12-03 19:35:30,454 - INFO - Saved config snapshot to ./outputs/1000-fgsm/denoise\config_used.json
+2025-12-03 19:35:30,475 - INFO - Training samples: 900; Validation samples: 100
+2025-12-03 19:35:30,476 - INFO - First 5 train samples: ['ISIC_0000000.jpg', 'ISIC_0000001.jpg', 'ISIC_0000003.jpg', 'ISIC_0000004.jpg', 'ISIC_0000006.jpg']
+2025-12-03 19:35:30,476 - INFO - Feature Denoising Module (Non-Local Blocks) is ENABLED.
+2025-12-03 19:35:31,831 - INFO - Epoch 1/15
+2025-12-03 19:37:33,942 - INFO - Epoch 1: train_loss=0.760993, val_dice=0.752533 ¡À 0.259549
+2025-12-03 19:37:34,002 - INFO - Saved new best model to ./outputs/1000-fgsm/denoise\unet_best_denoise.pth (val_dice=0.752533)
+2025-12-03 19:37:34,003 - INFO - Epoch 2/15
+2025-12-03 19:38:57,859 - INFO - Epoch 2: train_loss=0.530674, val_dice=0.732657 ¡À 0.232590
+2025-12-03 19:38:57,862 - INFO - Epoch 3/15
+2025-12-03 19:40:13,611 - INFO - Epoch 3: train_loss=0.461449, val_dice=0.697339 ¡À 0.271221
+2025-12-03 19:40:13,613 - INFO - Epoch 4/15
+2025-12-03 19:41:26,288 - INFO - Epoch 4: train_loss=0.430508, val_dice=0.716912 ¡À 0.221247
+2025-12-03 19:41:26,290 - INFO - Epoch 5/15
+2025-12-03 19:42:41,770 - INFO - Epoch 5: train_loss=0.401870, val_dice=0.753937 ¡À 0.214141
+2025-12-03 19:42:41,801 - INFO - Saved new best model to ./outputs/1000-fgsm/denoise\unet_best_denoise.pth (val_dice=0.753937)
+2025-12-03 19:42:41,802 - INFO - Epoch 6/15
+2025-12-03 19:43:47,218 - INFO - Epoch 6: train_loss=0.374780, val_dice=0.744150 ¡À 0.223019
+2025-12-03 19:43:47,219 - INFO - Epoch 7/15
+2025-12-03 19:44:51,263 - INFO - Epoch 7: train_loss=0.355823, val_dice=0.741757 ¡À 0.255380
+2025-12-03 19:44:51,265 - INFO - Epoch 8/15
+2025-12-03 19:45:59,327 - INFO - Epoch 8: train_loss=0.341124, val_dice=0.756267 ¡À 0.216997
+2025-12-03 19:45:59,355 - INFO - Saved new best model to ./outputs/1000-fgsm/denoise\unet_best_denoise.pth (val_dice=0.756267)
+2025-12-03 19:45:59,356 - INFO - Epoch 9/15
+2025-12-03 19:47:24,230 - INFO - Epoch 9: train_loss=0.319185, val_dice=0.764541 ¡À 0.184841
+2025-12-03 19:47:24,241 - INFO - Saved new best model to ./outputs/1000-fgsm/denoise\unet_best_denoise.pth (val_dice=0.764541)
+2025-12-03 19:47:24,241 - INFO - Epoch 10/15
+2025-12-03 19:48:50,542 - INFO - Epoch 10: train_loss=0.339283, val_dice=0.689721 ¡À 0.229021
+2025-12-03 19:48:50,544 - INFO - Epoch 11/15
+2025-12-03 19:50:27,932 - INFO - Epoch 11: train_loss=0.313049, val_dice=0.756419 ¡À 0.199696
+2025-12-03 19:50:27,934 - INFO - Epoch 12/15
+2025-12-03 19:51:55,434 - INFO - Epoch 12: train_loss=0.314361, val_dice=0.771104 ¡À 0.212334
+2025-12-03 19:51:55,459 - INFO - Saved new best model to ./outputs/1000-fgsm/denoise\unet_best_denoise.pth (val_dice=0.771104)
+2025-12-03 19:51:55,460 - INFO - Epoch 13/15
+2025-12-03 19:53:24,492 - INFO - Epoch 13: train_loss=0.301025, val_dice=0.741492 ¡À 0.193729
+2025-12-03 19:53:24,495 - INFO - Epoch 14/15
+2025-12-03 19:54:56,462 - INFO - Epoch 14: train_loss=0.305893, val_dice=0.742804 ¡À 0.248340
+2025-12-03 19:54:56,464 - INFO - Epoch 15/15
+2025-12-03 19:56:31,499 - INFO - Epoch 15: train_loss=0.306934, val_dice=0.663878 ¡À 0.225852
+2025-12-03 19:56:31,502 - INFO - Training finished. Best val dice: 0.771104

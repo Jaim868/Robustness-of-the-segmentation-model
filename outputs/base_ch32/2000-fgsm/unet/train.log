@@ -1,0 +1,17 @@
+2026-01-22 21:18:23,341 - INFO - Starting training, output directory: ./outputs/base_ch32/2000-fgsm/unet
+2026-01-22 21:18:23,344 - INFO - Saved config snapshot to ./outputs/base_ch32/2000-fgsm/unet\config_used.json
+2026-01-22 21:18:23,558 - INFO - Training samples: 2200; Validation samples: 394
+2026-01-22 21:18:23,558 - INFO - First 5 train samples: ['ISIC_0000000.jpg', 'ISIC_0000001.jpg', 'ISIC_0000003.jpg', 'ISIC_0000004.jpg', 'ISIC_0000006.jpg']
+2026-01-22 21:18:23,560 - INFO - Feature Denoising Module is DISABLED.
+2026-01-22 21:18:27,007 - INFO - Epoch 1/20
+2026-01-22 21:22:35,255 - INFO - Starting training, output directory: ./outputs/base_ch32/2000-fgsm/unet
+2026-01-22 21:22:35,257 - INFO - Saved config snapshot to ./outputs/base_ch32/2000-fgsm/unet\config_used.json
+2026-01-22 21:22:35,506 - INFO - Training samples: 2200; Validation samples: 394
+2026-01-22 21:22:35,507 - INFO - First 5 train samples: ['ISIC_0000000.jpg', 'ISIC_0000001.jpg', 'ISIC_0000003.jpg', 'ISIC_0000004.jpg', 'ISIC_0000006.jpg']
+2026-01-22 21:22:35,508 - INFO - Feature Denoising Module is DISABLED.
+2026-01-22 21:22:38,247 - INFO - Epoch 1/15
+2026-01-22 22:00:15,063 - INFO - Epoch 1: train_loss=0.670131, val_dice=0.564678 ¡À 0.318039
+2026-01-22 22:00:15,087 - INFO - Saved new best model to ./outputs/base_ch32/2000-fgsm/unet\unet_best_denoise.pth (val_dice=0.564678)
+2026-01-22 22:00:15,087 - INFO - Epoch 2/15
+2026-01-22 22:33:27,434 - INFO - Epoch 2: train_loss=0.497695, val_dice=0.263905 ¡À 0.352616
+2026-01-22 22:33:27,435 - INFO - Epoch 3/15

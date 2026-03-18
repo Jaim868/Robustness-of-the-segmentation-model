@@ -1,0 +1,2 @@
+image,has_gt,dice_clean,iou_clean,dice_adv_no_def,iou_adv_no_def,dice_adv_def,iou_adv_def,attack,eps,iters,alpha,decay,defense,defense_bits,defended_input_path,timestamp
+ISIC_0012236,False,,,,,,,fgsm,0.0157,1,0.0157,1.0,tta,6,./outputs/denoised_isic/denoised_isic2\single_ISIC_0012236_adv_defended_input.png,2025-11-06T01:47:50.141390
