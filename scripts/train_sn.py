@@ -55,7 +55,7 @@ def train_sn(cfg_path, alpha=0.7, out_dir='outputs/sn_train'):
     model = UNet(
         in_channels=cfg['in_channels'],
         n_classes=cfg['num_classes'],
-        base_ch=cfg.get('base_ch', 16),
+        base_ch=cfg.get('base_ch', 8),
         spectral_norm=True  # <--- Enable Spectral Normalization
     ).to(device)
 

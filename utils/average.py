@@ -171,7 +171,7 @@ def calculate_from_content(content):
 
 
 if __name__ == "__main__":
-    file_path = "outputs/1000-fgsm/aug/eval_fgsm_eps0.0157.csv"
+    file_path = "outputs/Covid/2000-fgsm/unet/eval_fgsm_eps0.0157_defense_none.csv"
     calculate_averages_from_csv(file_path)
 
     # 方法2: 手动从文件计算（不使用pandas）

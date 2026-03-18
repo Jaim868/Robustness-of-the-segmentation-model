@@ -33,7 +33,11 @@ def train_adv(cfg_path, out_dir=None):
         val_list = splits.get('val', [])
     else:
         import glob
-        imgs = sorted(list(set(glob.glob(os.path.join(cfg['images_dir'], 'ISIC_*.jpg')))))
+        # imgs = sorted(list(set(glob.glob(os.path.join(cfg['images_dir'], 'ISIC_*.jpg')))))
+        # 修改为 (支持更多格式)
+        imgs = sorted(glob.glob(os.path.join(cfg['images_dir'], '*.*')))
+        # 过滤非图片文件
+        imgs = [x for x in imgs if x.lower().endswith(('.png', '.jpg', '.jpeg', '.tif', '.bmp'))]
         imgs = [os.path.basename(x) for x in imgs]
         start = cfg.get('train_start',0)
         limit = cfg.get('train_limit', None)
