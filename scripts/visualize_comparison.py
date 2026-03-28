@@ -177,7 +177,7 @@ def main(args):
     # 生成攻击样本
     adv_img_base = pgd_attack_on_segmentation(
         model_base, img_t, mask_t,
-        eps=4 / 255, alpha=1 / 255, iters=10,
+        eps=16 / 255, alpha=1 / 255, iters=10,
         loss_fn=criterion, device=device
     )
     # 预测
@@ -197,7 +197,7 @@ def main(args):
     # 生成攻击样本 (针对 Adv 模型生成攻击)
     adv_img_adv = pgd_attack_on_segmentation(
         model_adv, img_t, mask_t,
-        eps=4 / 255, alpha=1 / 255, iters=10,
+        eps=24 / 255, alpha=1 / 255, iters=10,
         loss_fn=criterion, device=device
     )
     # 预测
@@ -223,7 +223,7 @@ def main(args):
 
     plt.tight_layout()
 
-    out_path = os.path.join(args.out_dir, f"vis_clean_{filename}.png")
+    out_path = os.path.join(args.out_dir, f"vis_clean_{filename}_4.png")
     plt.savefig(out_path, dpi=300, bbox_inches='tight')
     print(f"Done! Saved to: {out_path}")
 

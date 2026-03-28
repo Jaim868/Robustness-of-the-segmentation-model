@@ -18,6 +18,7 @@ python scripts\eval_adv.py --config configs/config_isic.json --ckpt outputs/2000
 python scripts\eval_adv.py --config configs/config_isic.json --ckpt outputs/Covid/2000-fgsm/adv/unet_adv_trained.pth --attack fgsm --eps 0.0157 --attack_iters 10 --val_count 200
 python scripts\eval_adv.py --config configs/config_isic.json --ckpt outputs/Covid/2000-fgsm/unet/unet_best_denoise.pth --attack fgsm --eps 0.0157 --attack_iters 10 --val_count 200
 python scripts/visualize_comparison.py --img_dir Covid/images --mask_dir Covid/masks --image_name "COVID-19.png" --ckpt_base outputs/Covid/2000-fgsm/unet/unet_best_denoise.pth --ckpt_adv outputs/Covid/2000-fgsm/adv/unet_adv_trained.pth
+python scripts/visualize_comparison.py --img_dir dataset\resized_100\images --mask_dir dataset\resized_100\masks --image_name "ISIC_0000001.jpg" --ckpt_base outputs/1000-fgsm/normal/eval_fgsm_eps0.0157_defense_none.csv --ckpt_adv outputs/1000-fgsm/adv/eval_fgsm_eps0.0157_defense_none.csv
 
 eval_denoise:
 python scripts\eval_denoise.py --config configs/config_isic.json --ckpt outputs/1000-fgsm/denoise/unet_best_denoise.pth --attack fgsm --eps 0.0157 --attack_iters 10 --val_start_name ISIC_0010844.jpg --val_count 100
@@ -36,7 +37,7 @@ python tools/aggregate_eval_results.py
 
 # 6) 定性对比示例（单图）
 python scripts/attack_single_image.py --config configs/config_isic.json --ckpt outputs/unet_best.pth --image dataset/ISIC2018_Task1-2_Test_Input/ISIC_0012303.jpg --attack fgsm --eps 0.0157
-python scripts/attack_single_image.py --config configs/config_isic.json --ckpt outputs/unet_adv_trained.pth --image dataset/resized_100/images/ISIC_0012303.jpg --attack fgsm --eps 0.0157
+python scripts/attack_single_image.py --config configs/config_isic.json --ckpt outputs/unet_adv_trained.pth --image dataset/ISIC2018_Task1-2_Test_Input/ISIC_0012456.jpg --attack fgsm --eps 0.0157 --defense tta --defense_bits 6 --tta_transforms 3
 
 Visual：
 python scripts/visualize_comparison.py --base_ch 8 --index 10
