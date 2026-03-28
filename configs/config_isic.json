@@ -8,29 +8,9 @@
   "masks_dir1": "./dataset/resized_100/masks",
 
   "out_dir*": "./outputs/Covid/2000-fgsm/adv",
-  "out_dir": "./outputs/Covid/2000-fgsm/unet",
-  "out_dir6": "./outputs/2000-fgsm/adv",
-  "out_dir7": "./outputs/2000-fgsm/sn",
-  "out_dir8": "./outputs/2000-fgsm/unet",
-  "out_dir5": "./outputs/1000-fgsm/Tradeoff",
-  "out_dir3": "./outputs/1000-fgsm/aug",
-  "out_dir2": "./outputs/1000-fgsm/denoise",
-  "out_dir4": "./outputs/1000-fgsm/sn_experiment",
 
   "denoise": false,
 
-  "pth_path7": "./outputs/2000-fgsm/sn/unet_sn_best.pth",
-  "pth_path6": "./outputs/2000-fgsm/unet/unet_adv_trained.pth",
-  "pth_path5": "./outputs/2000-fgsm/adv/unet_best.pth",
-  "pth_path4": "./outputs/1000-fgsm/denoise/unet_best_denoise.pth",
-  "pth_path1": "outputs_resized100/unet_best.pth",
-  "pth_path2": "outputs/unet_best.pth",
-  "pth_path3": "./outputs/1000-fgsm/denoise/unet_best_denoise.pth",
-
-
-  "images_dir1": "./dataset/ISIC2018_Task1-2_Training_Input",
-  "masks_dir1": "./dataset/ISIC2018_Task1_Training_GroundTruth",
-  "out_dir1": "./outputs",
 
   "use_mixup": false,
   "mixup_alpha": 0.4,
