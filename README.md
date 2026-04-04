@@ -13,26 +13,22 @@ It provides a comprehensive, modular PyTorch framework to train medical image se
 ## 📑 Table of Contents
 - [Features](#-features)
 - [Project Structure](#-project-structure)
-- [Installation](#-installation)
--[Dataset Preparation](#-dataset-preparation)
-- [Usage Guide](#-usage-guide)
-  - [1. Standard Training](#1-standard-training-baseline)
-  - [2. Adversarial Training (Trade-off Analysis)](#2-adversarial-training-trade-off-analysis)
-  - [3. Advanced Defense (TRADES + SN)](#3-advanced-defense-trades--spectral-normalization)
-  - [4. Robust Evaluation](#4-robust-evaluation)
-  -[5. Visualization](#5-qualitative-visualization)
+- [Environment Setup](#-environment-setup)
+- [Dataset Preparation](#-dataset-preparation)
+-[End-to-End Usage Workflow](#-end-to-end-usage-workflow)
+  -[Step 1: Train the Baseline Model](#step-1-train-the-baseline-model)
+  -[Step 2: Vulnerability Assessment (Attacks)](#step-2-vulnerability-assessment-attacks)
+  -[Step 3: Adversarial Training (Trade-off Analysis)](#step-3-adversarial-training-trade-off-analysis)
+  -[Step 4: Advanced Defense (TRADES + SN)](#step-4-advanced-defense-trades--spectral-normalization)
+  -[Step 5: Qualitative Visualization](#step-5-qualitative-visualization)
 - [Results Summary](#-results-summary)
-- [Acknowledgements](#-acknowledgements)
 
 ---
 
 ## ✨ Features
 - **Lightweight Segmentation:** Parameterized U-Net architecture (`base_ch=8, 16, 32`) optimized for consumer-grade GPUs (8GB VRAM).
-- **Comprehensive Attack Suite:** Implementations of $L_\infty$-bounded white-box attacks specifically adapted for dense prediction tasks (Cross-Entropy maximization).
-- **Advanced Defenses:** 
-  - Linearly Weighted Adversarial Training ($\alpha$-parameterized).
-  - Spectral Normalization (Lipschitz constant bounding to prevent training collapse).
-  - TRADES Objective (KL-Divergence based manifold smoothing).
+- **Comprehensive Attack Suite:** Implementations of $L_\infty$-bounded white-box attacks specifically adapted for dense prediction tasks.
+- **Advanced Defenses:** Linearly Weighted Adversarial Training, Spectral Normalization, and TRADES.
 - **Robust Evaluation Pipeline:** Automated calculation of Clean/Robust Dice Similarity Coefficient (DSC) and Intersection over Union (IoU).
 
 ---
@@ -42,18 +38,15 @@ It provides a comprehensive, modular PyTorch framework to train medical image se
 ```text
 ├── configs/
 │   └── config_isic.json         # Global hyperparameters and path configurations
-├── dataset/
-│   └── resized_100/             # Place your images and masks here
-│       ├── images/              # e.g., ISIC_0000007.jpg
-│       └── masks/               # e.g., ISIC_0000007_segmentation.png
+├── dataset/                     # Place your images and masks here
 ├── models/
 │   └── unet.py                  # U-Net architecture with Spectral Normalization support
 ├── scripts/
 │   ├── attacks/                 # Attack algorithms (fgsm_seg.py, pgd_seg.py, etc.)
 │   ├── train_unet.py            # Standard ERM training script
 │   ├── train_tradeoff.py        # Adversarial training script with alpha weighting
+│   ├── train_sn.py              # Adversarial training + Spectral Normalization
 │   ├── train_trades.py          # TRADES optimization script
-│   ├── trades.py                # TRADES loss function formulation
 │   ├── eval_adv.py              # Quantitative evaluation script
 │   └── visualize_comparison.py  # Script for generating side-by-side visual comparisons
 ├── utils/
